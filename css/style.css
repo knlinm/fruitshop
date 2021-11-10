@@ -340,6 +340,18 @@
     color: #12c6f4;
 }
 
+.posts {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.posts span {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
 .copyright {
     background-color: #046882;
     padding: 10px 0px;
@@ -359,6 +371,24 @@
 
 .copyright a:hover {
     color: #12c6f4;
+}
+
+#ad {
+    margin-top: 100px;
+}
+
+#adWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subscribe {
+    display: inline-block;
+    padding: 15px;
+    background-color: #12c6f4;
+    color: #000;
+    transition: all 0.4s ease-in-out;
 }
 
 
